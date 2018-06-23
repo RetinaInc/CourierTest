@@ -1,9 +1,10 @@
 package com.ACME.Backend;
 
 public class Company {
-	public name;
+	public String name;
 	
-	public void insert() {
+	public void insert(String name) {
 		this.name = name;
+		
 	}
 }
